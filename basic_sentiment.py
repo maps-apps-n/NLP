@@ -6,6 +6,7 @@ analysis = TextBlob("TextBlob text text text text")
 print(dir(analysis))
 
 print(analysis.sentiment)
+print(analysis.sentiment.polarity)
 
 
 
